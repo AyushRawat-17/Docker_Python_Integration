@@ -4,12 +4,10 @@ import Button from '@material-ui/core/Button';
 
 function App() {
   return (
-    <div>
-      <form  noValidate autoComplete="off" action="http://192.168.0.10/cgi-bin/docker.py">
+      <form  action="http://192.168.0.10/cgi-bin/docker.py">
         <TextField id="standard-basic" label="OSNAME" name="x"/>
-        <Button variant="contained" color="primary">SUBMIT</Button>
+        <Button variant="contained" color="primary" type="submit">SUBMIT</Button> 
       </form>
-    </div>
   );
 }
 
